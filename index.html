@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -7,8 +8,8 @@
 <!--grupo CSS-->
 <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
 <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
-<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
-<!--grupo JavaScript-->
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--Grupo JavaScript-->
 <script src="js/jquery-1.11.2.min.js"></script>
 <script src="js/jquery.mobile-1.4.5.min.js"></script>
 <script src="js/acciones.js"></script>
@@ -17,140 +18,141 @@
 
 <body>
 <div data-role="page" id="Principal" data-theme="a">
-   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-     <h1>Datos personales del alumno </h1>
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Datos Personales del alumno</h1>
+  </div>
+ <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>FOTO DE PERFIL</h1>
+    <div>
+     <p>Esta es mi foto de perfil
+     <br>
     </div>
-    <div data-role="main" class="ui-content">
-         <div data-role="collapsible" data-content-theme="false">
-           <h1>Foto del Perfil</h1>
-           <div>
-           <p>Esta es mi imagen del perfil</p>
-           <br>
-           </div>
-           <div>
-           <img src="imagenes/nancy.png" width="15%" height="15%">
-           </div>
-           </div>
-   
+   <div>
+     <img src="../../../git/app1/imagenes/nancy.png" width="50%" height="50%"></div>
+     </div>
+     </div>
     
-<div>
+   <div>
     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
      <li class="ui-first-child ui-last-child">
-        <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-        <h2>Datos Generales</h2>
-        <p>Se muestra el Nombre</p>
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>DATOS GENERALES</h2>
+         <p>Se muestra el nombre</p>
       </a>
-      </li>
-      <li class="ui-first-child ui-last-child">
-        <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-        <h2>Fecha de Nacimiento</h2>
-        <p>Se muestra el dia, mes y año de Nacimiento</p>
-        </a>
-       </li>
-      <li class="ui-first-child ui-last-child">
-        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-        <h2>DOMICILIO</h2>
-        <p>Muestra el domicilio del alumno</p>
-        </a>
-       </li>
-      <li class="ui-first-child ui-last-child">
-        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-        <h2>Deporte Favorito</h2>
-        <p>Muestra el deporte que mas le agrada al Alumno </p>
-        </a>
-      </li>
-      <li class="ui-first-child ui-last-child">
-        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
-        <h2>OTROS GUSTOS E INTERESES</h2>
-        <p>Muestra otros gustos del alumno</p>
-       </a>
-      </li>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>FECHA DE NACIMIENTO</h2>
+       <p>Se muestra el dia, mes y año de nacimiento</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>DOMICILIO</h2>
+       <p>Muestra el domicilio del alumno</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>DEPORTE FAVORITO</h2>
+       <p>Muestra el deporte que mas le agrada al alumno</p>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>OTROS GUSTOS E INTERESES</h2>
+       <p>Muestra otros gustos del alumno</p>
+      </a>
+     </li>
    </ul>
-</div>
-<div data-role="footer" align="center" data-theme="a">
-   <div>
-      <img src="imagenes/persona_rosa.png" width="46" height="46">
    </div>
-   <div>
-     <h4>Aplicacion Uno</h4>
-     <h4>Nancy Lizbeth Reyes Jiménez</h4>
-    </div>
-</div>
-</div>
-
-<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
-     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-     <h1>NOMBRE</h1>
-     </div>
-     <div data-role="content" align="center">
+   <div data-role="footer" align="center" data-theme="a">
       <div>
-         <h2>Nancy Lizbeth Reyes Jiménez</h2></div>
+        <img src="imagenes/persona_rosa.png" width="46" height="46">
       </div>
-    <div data-role="footer" data-theme="a">
-       <h4>Aplicacion Uno, NLRJ</h4>
+      <div>
+       <h4>Aplicacion Uno</h4>
+       <h4>Nancy Lizbeth Reyes Jiménez</h4>
+      </div>
+     </div>
+    </div> 
+      
+   <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Nombre:</h1>
+     </div>
+   <div data-role="content" align="center">
+    <div>
+     <h2>Nancy Lizbeth Reyes Jiménez.</h2>
     </div>
-</div>
-</div>
-
-<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
-  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-      <h1>FECHA DE NACIMIENTO</h1>
+   </div>
+   <div data-role="footer" data-theme="a">
+    <h4>Aplicacion Uno, NLRJ</h4>
+   </div>
+   </div>
+   </div>  
+    
+   <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a"> 
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>FECHA DE NACIMIENTO</h1>
    </div>
    <div data-role="content" align="center">
-      <div>
-         <h2>6 de Julio de 1999</h2></div>
+    <div>
+    <h2>6 de Julio de 1999</h2></div>
+    </div>
+    <div data-role="footer" data-theme="a">
+     <h4>Aplicacion Uno, NLRJ</h4>
+     </div>
+     </div>
+     </div>
+     
+    <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>DOMICILIO</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+       <h2>2da de Chapultepec #202 Col. Ricardo Flores Magón</h2></div>
       </div>
       <div data-role="footer" data-theme="a">
-         <h4>Aplicacion Uno, NLRJ</h4>
+      <h4>Aplicacion Uno,NLRJ</h4>
       </div>
-     </div>
-   </div>
-   
-<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
-  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-       <h1>DOMICILIO</h1>
-  </div>
-  <div data-role="content" align="center">
-     <div>
-         <h2> 2da de Chapultepec #202</h2></div>
-     </div>
-  <div data-role="footer" data-theme="a">
-       <h4>Aplicacion Uno, NLRJ</h4>
-  </div>
- </div>
-</div>
 
-<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
-  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-      <h1>DEPORTE FAVORITO</h1>
-   </div>
-   <div data-role="content" align="center">
-      <div>
-         <h2>FUTBOL</h2>
-         <img src="ima_2.jpg" width="50%" height="50%">
       </div>
-   </div>
- <div data-role="footer" data-theme="a">
-         <h4>Aplicacion Uno, NLRJ</h4>
       </div>
-     </div>
-   </div>
-
-<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
-  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
-      <h1>Gustos e Interese</h1>
-   </div>
-   <div data-role="content" align="center">
-      <div>
-         <h2>Escuchar música e pintarme las uñas </h2>
-         <img src="imagenes/musica.png" width="15%" height="15%">
-         <img src="imagenes/unas.png" width="10%" height="10%">
-   </div>
- <div data-role="footer" data-theme="a">
-         <h4>Aplicacion Uno, NLRJ</h4>
+      
+      <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>DEPORTE FAVORITO</h1>
+        </div>
+        <div data-role="content" align="center">
+          <div>
+           <h2>Futbol </h2>
+           <img src="imagenes/futbol.jpg" width="504" height="504"><!--Agregar la ruta de la imagen-->
+        </div> 
       </div>
-     </div>
-   </div>   
+      <div data-role="footer" data-theme="a">
+       <h4>Aplicacion Uno,NLRJ</h4>
+       </div>
+       </div>
+       </div>
+       
+       <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+        <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>GUSTOS E INTERESES</h1>
+        </div>
+        <div data-role="content" align="center">
+        <div>
+         <h2>pintarme las uñas y escuchar musica</h2></div>
+         <img src="imagenes/musica.png">
+         <img src="imagenes/uñas.png">
+         </div>
+         <div data-role="footer" data-theme="a">
+           <h4>Aplicacion Uno, NLRJ</h4>
+           </div>
+           </div>
+           </div>
            
 </body>
 </html>
